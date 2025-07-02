@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maki Watanabeのポートフォリオサイトです。">
+    <title>MWProfile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <!-- ロゴ -->
+      <div class="header-inner">
+        <h1>
+          <a href="index.html" class="home">MW</a>
+        </h1>
+        
+        <!-- PC用ナビゲーションメニュー -->
+        <nav id="nav-pc">
+          <ul class="menu">
+            <li><a href="works.html">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- スマホ用メニューボタン 　【後から編集！】
+      <button id="menu-sp">
+        <img src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+      </button>
+      -->
+
+      <!-- スマホ用ナビゲーション 
+      <div id="nav-sp">
+        <button id="close">
+          <img src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        </button>
+
+        <nav>
+          <ul>
+            <li>
+              <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+            </li>
+            <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a></li>
+            <li><a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a></li>
+            <li><a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT US</a></li>
+            <li><a class="menu" href="index.html#vision" onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a></li>
+            <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a></li>
+            <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="sns">
+          <a href="https://www.facebook.com/sejuku2013">
+            <img src="images/button-facebook.png" alt="Facebookのリンク">
+          </a>
+          <a href="https://twitter.com/samuraijuku">
+            <img src="images/button-twitter.png" alt="Twitterのリンク">
+          </a>
+          <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g">
+            <img src="images/button-youtube.png" alt="YouTubeのリンク">
+          </a>
+        </div>
+      </div>
+      -->
+    </header>
+
+    <main>
+      <article>
+        <!-- メイン画像 -->
+        <div>
+          <img id="main-photo" src="images/index/index-main.png" alt="夕日の写真">
+          <h2>M.WATA</h2>
+          <p>これはポートフォリオサイトだよ</p>
+        </div>
+
+        <!-- Works -->
+         <!-- 1imgと文章にリンク付けする、moreで開くページはdivで分ける？ -->
+        <section id="works">
+          <h3 class="index-h3">Works</h3>
+          <div class="works-list">
+            <div class="item">
+              <a href="works.html">
+              <img src="image/works1.png" alt="works1のサムネイル">
+              <h4>株式会社〇〇</h4>   <!--pタグとh4どちら-->
+              <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="works.html">
+              <img src="image/works2.png" alt="works2のサムネイル">
+              <h4>株式会社〇〇</h4>
+              <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="works.html">
+              <img src="image/works3.png" alt="works3のサムネイル">
+              <h4>株式会社〇〇</h4>
+              <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+              </a>
+            </div>
+            
+            <div class="item">
+              <a href="works.html">
+              <img src="image/works4.png" alt="works4のサムネイル">
+              <h4>株式会社〇〇</h4>
+              <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+              </a>
+            </div>
+          </div>  
+          
+          <p id="more">more ></p>  <!--moreにリンクをつけるのは-->
+            
+          <!-- moreをクリックすると下に表示される -->
+           <div class="works-more">
+            <div class="item">
+              <a href="works.html">
+              <img src="image/works4.png" alt="works4のサムネイル">
+              <h4>株式会社〇〇</h4>
+              <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+              </a>
+            </div>
+
+            <div class="item">
+              <a href="works.html">
+              <img src="image/works4.png" alt="works4のサムネイル">
+              <h4>株式会社〇〇</h4>
+              <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Service -->
+        <section class="service">
+          <h3 class="index-h3">Service</h3>
+          <div class="service">
+            <div class="skill1">
+              <img src="image/skill1.png" alt="デザインアイコン">
+              <h4>デザイン</h4>
+              <p>DESIGN</p>
+              <p>デザインでこんなことするよ～の説明</p>
+              <p>photpshop / figma / canva /</p>
+            </div>
+
+            <div class="skill2">
+              <img src="image/skill2.png" alt="コーディングアイコン">
+              <h4>コーディング</h4>
+              <p>CODING</p>
+              <p>コーディングでこんなことするよ～の説明</p>
+              <p>HTML, CSS / WordPress / </p>
+            </div>
+            
+          </div>
+        </section>
+
+      </article>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <p>&copy; MyProfile. All rights reserved.</p>
+    </footer>

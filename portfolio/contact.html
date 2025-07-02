@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maki Watanabeのポートフォリオサイトです。">
+    <title>MWProfile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <!-- ロゴ -->
+      <div class="header-inner">
+        <h1>
+          <a href="index.html" class="home">MW</a>
+        </h1>
+        
+        <!-- PC用ナビゲーションメニュー -->
+        <nav id="nav-pc">
+          <ul class="menu">
+            <li><a href="#works">Works</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- スマホ用メニューボタン 
+      <button id="menu-sp">
+        <img src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+      </button>
+      -->
+
+      <!-- スマホ用ナビゲーション 
+      <div id="nav-sp">
+        <button id="close">
+          <img src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        </button>
+
+        <nav>
+          <ul>
+            <li>
+              <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+            </li>
+            <li><a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a></li>
+            <li><a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a></li>
+            <li><a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT US</a></li>
+            <li><a class="menu" href="index.html#vision" onclick="document.getElementById('nav-sp').style.display = 'none'">VISION</a></li>
+            <li><a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a></li>
+            <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+          </ul>
+        </nav>
+        <div id="sns">
+          <a href="https://www.facebook.com/sejuku2013">
+            <img src="images/button-facebook.png" alt="Facebookのリンク">
+          </a>
+          <a href="https://twitter.com/samuraijuku">
+            <img src="images/button-twitter.png" alt="Twitterのリンク">
+          </a>
+          <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g">
+            <img src="images/button-youtube.png" alt="YouTubeのリンク">
+          </a>
+        </div>
+      </div>
+      -->
+    </header>
+
+    <main>
+      <!-- お問い合わせフォーム -->
+        <section id="contact">
+          <h2 class="contact-h2">Contact</h2>
+          <p>ご連絡お待ちしています！</p>
+          <form id="form">
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">name</label>
+              </div>
+              <div>
+                <input id="name" type="text" name="name" class="contact-textbox">
+              </div>
+            </div>  
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">email</label>
+              </div>
+              <div>
+                <input id="email" type="text" name="email" class="contact-textbox">
+              </div>
+            </div>
+            <div>
+              <div class="contact-heading">
+                <label class="contact-label">message</label>
+              </div>
+              <div>
+                <textarea id="message" class="contact-textarea " name="message"></textarea>
+              </div>
+            </div>
+
+            <input type="submit" value="送信する" class="submitBtn">
+          </form>
+        </section>
+    </main>
+    
+    <!-- フッター -->
+    <footer>
+      <p>&copy; MyProfile. All rights reserved.</p>
+    </footer>
